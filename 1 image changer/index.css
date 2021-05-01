@@ -1,0 +1,26 @@
+/* body {
+  background: rgb(204, 247, 193);
+} */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+}
+.textside {
+  text-align: center;
+}
+
+.imageside {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: row;
+  height: 50vh;
+  width: 50%;
+}
+.imageside img {
+  height: 50vh;
+  /* border-radius: 70%; */
+}
